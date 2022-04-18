@@ -128,10 +128,7 @@ public class App
 			for (String key : results.keySet()) {
 				for (String thing : results.get(key)) {
 					System.out.println(thing);
-				} //this is nice but keys are not ordered!!! maybe a 2D array...
-					//also, could try json object instead...
-					//or array list of custom objects
-					//iterator pattern here
+				} //sort keys first
 			}
 			*/
 
